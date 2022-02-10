@@ -7,6 +7,7 @@ import { InputComponent } from './components/input/input.component';
 import { OutputComponent } from './components/output/output.component';
 import { HtmlComponent } from './components/html/html.component';
 import { ComponentWithMethodsComponent } from './components/component-with-methods/component-with-methods.component';
+import { ComponentWithServiceComponent } from './components/component-with-service/component-with-service.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ComponentWithMethodsComponent } from './components/component-with-metho
     OutputComponent,
     HtmlComponent,
     ComponentWithMethodsComponent,
+    ComponentWithServiceComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],

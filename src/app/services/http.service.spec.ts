@@ -4,7 +4,7 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { of } from 'rxjs';
 import { Characters } from '../models/characters.interface';
 
-const RESPONSE_SAMPLE: Characters = {
+export const RESPONSE_SAMPLE: Characters = {
   count: 82,
   next: 'https://swapi.dev/api/people/?page=2',
   previous: null,
