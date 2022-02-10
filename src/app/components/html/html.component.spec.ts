@@ -40,4 +40,14 @@ describe('HtmlComponent', () => {
     input.value = 'test';
     expect(input.value).toEqual('test');
   });
+
+  it('should have a <div> tag with .some-div class', () => {
+    const div = fixture.debugElement.query(By.css('.some-div')).nativeElement;
+    expect(div).toBeDefined();
+  });
+
+  it('should have a <span> tag with myId id', () => {
+    const span = fixture.debugElement.query(By.css('#myId')).nativeElement;
+    expect(span).toBeTruthy();
+  });
 });
