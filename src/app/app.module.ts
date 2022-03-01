@@ -8,6 +8,7 @@ import { OutputComponent } from './components/output/output.component';
 import { HtmlComponent } from './components/html/html.component';
 import { ComponentWithMethodsComponent } from './components/component-with-methods/component-with-methods.component';
 import { ComponentWithServiceComponent } from './components/component-with-service/component-with-service.component';
+import { ComponentWithDifferentServiceResponsesComponent } from './components/component-with-different-service-responses/component-with-different-service-responses.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ComponentWithServiceComponent } from './components/component-with-servi
     HtmlComponent,
     ComponentWithMethodsComponent,
     ComponentWithServiceComponent,
+    ComponentWithDifferentServiceResponsesComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
